@@ -167,7 +167,8 @@ const server = http.createServer((req,res)=>{
     }
 });
 //! Start the server
-const PORT = 5500;
-server.listen(PORT, ()=>{
-    console.log(`SysView is running at http://localhost:${PORT}`);
+const PORT = process.env.PORT || 5500;
+
+server.listen(PORT, () => {
+  console.log(`SysView is running on port ${PORT}`);
 });
