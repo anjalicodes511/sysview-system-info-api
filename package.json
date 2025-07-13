@@ -1,0 +1,20 @@
+{
+  "name": "project-system-view-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjalicodes511/sysview-system-info-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjalicodes511/sysview-system-info-api/issues"
+  },
+  "homepage": "https://github.com/anjalicodes511/sysview-system-info-api#readme",
+  "description": ""
+}
